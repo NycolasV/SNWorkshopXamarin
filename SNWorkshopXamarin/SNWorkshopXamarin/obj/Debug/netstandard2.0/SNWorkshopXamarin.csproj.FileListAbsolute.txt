@@ -1,0 +1,16 @@
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\bin\Debug\netstandard2.0\SNWorkshopXamarin.deps.json
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\bin\Debug\netstandard2.0\SNWorkshopXamarin.dll
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\bin\Debug\netstandard2.0\SNWorkshopXamarin.pdb
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\SNWorkshopXamarin.csprojAssemblyReference.cache
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\SNWorkshopXamarin.csproj.CoreCompileInputs.cache
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\SNWorkshopXamarin.AssemblyInfoInputs.cache
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\SNWorkshopXamarin.AssemblyInfo.cs
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\SNWorkshopXamarin.dll
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\SNWorkshopXamarin.pdb
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\Feature\AboutPage\AboutPage.xaml.g.cs
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\Feature\ItemDetail\ItemDetailPage.xaml.g.cs
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\Feature\ListItems\ItemsPage.xaml.g.cs
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\Feature\NewItem\NewItemPage.xaml.g.cs
+C:\Users\NycolasVieira\source\repos\SNWorkshopXamarin\SNWorkshopXamarin\SNWorkshopXamarin\obj\Debug\netstandard2.0\XamlC.stamp

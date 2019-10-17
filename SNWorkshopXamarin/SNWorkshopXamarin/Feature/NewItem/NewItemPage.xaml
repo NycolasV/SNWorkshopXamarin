@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="SNWorkshopXamarin.Views.NewItemPage"
+             Title="{Binding Title}">
+
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancelar" Clicked="Cancel_Clicked" />
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <ScrollView VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand">
+            <StackLayout Spacing="20" Padding="15">
+                <Label Text="Nome" FontSize="Medium" />
+                <Entry Text="{Binding Item.Text}" Placeholder="Nome do item" FontSize="Small" />
+
+                <Label Text="Descrição" FontSize="Medium" />
+                <Editor Text="{Binding Item.Description}" Placeholder="Descrição do item" FontSize="Small" Margin="0" />
+
+                <FlexLayout JustifyContent="SpaceBetween" AlignItems="Start">
+                    <Entry Text="{Binding Cep}" Placeholder="Insira um cep" Keyboard="Numeric"/>
+
+                    <Button HorizontalOptions="Center" Text="BUSCAR" Command="{Binding SearchCepCommand}"/>
+                </FlexLayout>
+
+                <StackLayout IsVisible="{Binding HasCepResponse}">
+                    <Label Text="{Binding CepResponse.Street}" d:Text="Rua" FontSize="Medium" />
+
+                    <Label Text="{Binding CepResponse.Neighborhood}" d:Text="Bairro" FontSize="Medium" />
+
+                    <FlexLayout JustifyContent="SpaceBetween" AlignItems="Start">
+                        <Label Text="{Binding CepResponse.City}" d:Text="Cidade" FontSize="Medium" />
+
+                        <Label Text="{Binding CepResponse.State}" d:Text="UF" FontSize="Medium" />
+                    </FlexLayout>
+                </StackLayout>
+                
+                <Button HorizontalOptions="FillAndExpand" Text="SALVAR ITEM" Command="{Binding SaveItemCommand}"/>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+</ContentPage>
